@@ -14,7 +14,7 @@ A [bootstrap script](https://github.com/sduplooy/bootstrap) is available on GitH
 ## Installation
 ```
 mkdir -p ~/.config/nvim
-cd ~/.config/nvim
+cd ~/.config
 git clone https://github.com/sduplooy/nvim.git
 ```
 
