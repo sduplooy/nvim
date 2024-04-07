@@ -18,3 +18,8 @@ keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Closes current tab"
 keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" })
 keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" })
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" })
+
+-- dotnet
+keymap.set("n", "<leader>.r", "<cmd>TermExec cmd='dotnet restore'<CR>", { desc = "Restores Nuget packages" })
+keymap.set("n", "<leader>.b", "<cmd>TermExec cmd='dotnet build'<CR>", { desc = "Restores Nuget packages" })
+keymap.set("n", "<leader>.b", "<cmd>TermExec cmd='dotnet test'<CR>", { desc = "Restores Nuget packages" })
