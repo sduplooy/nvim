@@ -23,3 +23,12 @@ Tested on macOS Sonoma (14.4.1) and iTerm2 (3.4.23) using the RobotoMono Nerd Fo
 
 Last tested on 7 April 2024
 
+
+## WSL (Ubuntu 20.04)
+1. Download Neovim 0.95 `wget https://github.com/neovim/neovim/releases/download/v0.9.5/nvim.appimage`
+2. Overwrite the current Neovim executable with the downloaded one `sudo mv nvim.appimage /opt/nvim/nvim`
+3. Install ripgrep `sudo apt install ripgrep`
+
+## Troubleshooting
+If Neovim complains about fzf dependencies, run `make all` in `~/.local/share/nvim/lazy/telescope-fzf-native.nvim` directory.
+
